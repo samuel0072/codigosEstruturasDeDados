@@ -142,6 +142,7 @@ void print_hash_table(hash_table* ht)
 	for(i = 0; i < 11; ++i)
 	{
 		aux = get(ht, i);
-		printf("-- key = %d and value = %d\n", i, aux);
+		if(aux != -100)
+			printf("-- key = %d and value = %d\n", i, aux);
 	}
 }
