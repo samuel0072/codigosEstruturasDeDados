@@ -1,0 +1,7 @@
+
+ ggplot(data=banco, aes(x=numero, y=lista)) +
+ theme(legend.title=element_blank()) +
+ geom_point(color='orange') +
+ xlab("Numero sorteado") +
+ ylab("Comparacoes na Lista") +
+ggtitle("Grafico da Lista")
