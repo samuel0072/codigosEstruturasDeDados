@@ -1,5 +1,5 @@
 
- ggplot(data=banco, aes(x=numero, y=lista)) +
+ ggplot(data=banco, aes(x=numero_sorteado, y=lista)) +
  theme(legend.title=element_blank()) +
  geom_point(color='orange') +
  xlab("Numero sorteado") +
